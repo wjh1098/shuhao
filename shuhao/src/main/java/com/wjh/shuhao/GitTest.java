@@ -12,6 +12,7 @@ public class GitTest {
         System.out.println("test 分支");
         System.out.println("main merge");
         System.out.println("test merge");
+        System.out.println("push github");
     }
 
 }
