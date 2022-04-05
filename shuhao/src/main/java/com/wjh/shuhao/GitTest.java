@@ -10,6 +10,7 @@ public class GitTest {
         System.out.println("hello git!!");
         System.out.println("hello git!!2");
         System.out.println("test 分支");
+        System.out.println("main merge");
     }
 
 }
