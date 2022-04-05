@@ -14,6 +14,7 @@ public class GitTest {
         System.out.println("test merge");
         System.out.println("push github");
         System.out.println("pull github");
+        System.out.println("ssh push test");
 
     }
 
