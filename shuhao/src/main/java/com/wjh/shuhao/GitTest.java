@@ -20,5 +20,6 @@ public class GitTest {
         System.out.println("ssh push test");
         System.out.println("test ssh second");
         System.out.println("test ssh third");
+        System.out.println("test ssh connect");
     }
 }
