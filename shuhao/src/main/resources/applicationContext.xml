@@ -9,6 +9,7 @@
         <!ATTLIST property name CDATA #IMPLIED>
         <!ATTLIST property ref IDREF #IMPLIED>
         ]>
+
 <beans>
     <!--DAO-->
     <bean id="noteDAO" class="com.wjh.shuhao.dao.impl.NoteDAOImpl"/>
