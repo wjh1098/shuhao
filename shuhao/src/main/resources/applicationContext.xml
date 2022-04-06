@@ -11,7 +11,16 @@
         ]>
 <beans>
     <!--DAO-->
+    <bean id="noteDAO" class="com.wjh.shuhao.dao.impl.NoteDAOImpl"/>
+    <bean id="noteDetailDAO" class="com.wjh.shuhao.dao.impl.NoteDetailDAOImpl"/>
     <!--service-->
+    <bean id="noteService" class="com.wjh.shuhao.service.impl.NoteServiceImpl">
+        <property name="noteDAO" ref="noteDAO"/>
+    </bean>
     <!--Controller-->
     <bean id="page" class="com.wjh.myssm.myspringmvc.PageController"/>
+    <bean id="note" class="com.wjh.shuhao.controller.NoteController">
+        <property name="noteService" ref="noteService"/>
+    </bean>
+
 </beans>

@@ -408,7 +408,7 @@ input, select, textarea {
 		}
 
 		.row > .col-6 {
-			width: 50%;
+			width: 100%;
 		}
 
 		.row > .off-6 {
@@ -4688,3 +4688,10 @@ input, select, textarea {
 		}
 
 	}
+.lab{
+	display: block;
+	font-size: 0.8rem;
+	height: 1;
+	position: relative;
+	float: right;
+}
