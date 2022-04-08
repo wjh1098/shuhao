@@ -12,5 +12,13 @@
 
    :tada:**增加了笔记的展示功能，进行了数据库设计，添加了增加笔记的功能-addNote.html页面，使用json格式，使用vue+axios向服务器发送请求**
 
+3. **4-9更新**
+
+​	**:tada:增加了鼠标点击动画的js文件click.js并引入进三个页面**，**看不懂源代码，等以后学了在深究**
+
+> :rocket:**地址：**https://blog.csdn.net/bugHTG/article/details/115461502
+
+
+
 
 
